@@ -1,7 +1,10 @@
 # qrCodeAPI
 API Node en REST qui renvoie le nom, l'url de la documentation, et le configurateur du capteur scanné.
 
-## - Comment lancer le projet
+## - Comment lancer le projet sans Docker
+
+Avoir node sur sa machine, la LTS est utilisé pour le projet.
+https://nodejs.org/en/download/
 
 `npm install`
 
@@ -18,7 +21,7 @@ Pour lancer le projet
 Une fois le projet lancé on peut faire un:
 `curl localhost:3000` afin de s'assurer que le projet est bien lancé et accessible.
 
-##  - Dockeriser l'application
+##  - Comment lancer le projet avec Docker
 
 L'image du projet est créée par le Dockerfile.
 Il faut être à la racine du projet pour lancer ces étapes.
